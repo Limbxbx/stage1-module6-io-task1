@@ -19,6 +19,9 @@ public class Profile {
         this.phone = phone;
     }
 
+    public Profile(String name, int age, String email, String phone) {
+    }
+
     public String getName() {
         return name;
     }
